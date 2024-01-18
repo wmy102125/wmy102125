@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wmy102125-hugo-source.vercel.app/'
 languageCode = 'zh-CN'
 title = 'wmy102125的个人博客'
 theme = 'hugo-theme-flat'
