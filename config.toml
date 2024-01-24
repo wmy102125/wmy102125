@@ -55,17 +55,17 @@ pre = "Theme <a href=\"https://git.leafee98.com/leafee98/hugo-theme-flat.git\">h
 
 
 [[menus.main]]
-name = "Posts"
+name = "发布"
 url = "/posts/"
-weight = 30
-
-[[menus.main]]
-name = "Essays"
-url = "/essays/"
 weight = 40
 
 [[menus.main]]
-pageref = "about"
+name = "随笔"
+url = "/essays/"
+weight = 30
+
+[[menus.main]]
+pageref = "关于"
 name = "About"
 weight = 80
 

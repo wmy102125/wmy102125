@@ -14,7 +14,7 @@
                     </div>
 
                     {{ with .Params.Categories }}
-                        <div class="categories">
+                        <div class="分类">
                             <span>Categories:</span>
                             {{ range first 2 . }}
                                 <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
@@ -23,7 +23,7 @@
                     {{ end }}
 
                     {{ with .Params.Tags }}
-                        <div class="tags">
+                        <div class="标签">
                             <span>Tags:</span>
                             {{ range first 5 . }}
                                 <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
@@ -32,7 +32,7 @@
                     {{ end }}
                 </div>
 
-                <div class="summary">
+                <div class="简介">
                     {{ with .Description }}
                         {{ . }}
                     {{ else }}
